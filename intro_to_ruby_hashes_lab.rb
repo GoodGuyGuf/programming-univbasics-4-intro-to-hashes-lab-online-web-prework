@@ -20,8 +20,13 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  {read_from_hash({name: 'Steve'}, :name)
+  hash[key]
 end
+h = {a: 1, b: 2}
+
+read_from_hash(h, :a)
+#=> 1
+read_from_hash(h, :c)
 
 def update_counting_hash(hash, key)
   
