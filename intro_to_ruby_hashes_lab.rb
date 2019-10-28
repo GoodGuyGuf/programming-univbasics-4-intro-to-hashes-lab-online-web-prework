@@ -28,9 +28,8 @@ read_from_hash(h, :a)
 read_from_hash(h, :c)
 
 def update_counting_hash(hash, key)
-  hash[key]
-end
-h = {
+ h = {age => 22}
+  if h 
   
 end
 
