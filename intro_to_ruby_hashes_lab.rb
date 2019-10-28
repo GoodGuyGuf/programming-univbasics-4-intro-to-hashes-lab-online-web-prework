@@ -30,7 +30,7 @@ read_from_hash(h, :c)
 def update_counting_hash(hash, key)
   hash[key]
 end
-
+h = {
   
 end
 
