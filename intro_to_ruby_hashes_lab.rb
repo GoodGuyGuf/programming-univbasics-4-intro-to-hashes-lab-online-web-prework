@@ -25,7 +25,6 @@ end
 h = {a: 1, b: 2}
 
 read_from_hash(h, :a)
-#=> 1
 read_from_hash(h, :c)
 
 def update_counting_hash(hash, key)
