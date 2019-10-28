@@ -20,7 +20,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  [a_value, age: 31, name: "Grace Hopper"]
+  ["Steve", age: 31, name: "Grace Hopper"]
 end
 
 def update_counting_hash(hash, key)
